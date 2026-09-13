@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it as below."
+title: "ADLI-LeTCI computational logic: reproducibility artifact"
+version: 1.0.0
+date-released: 2026-09-13
+license: MIT
+authors:
+  - family-names: Saosing
+    given-names: Rungtiva
+    orcid: "https://orcid.org/0009-0007-8713-8190"
+  - family-names: Akkapin
+    given-names: Supaphorn
+    orcid: "https://orcid.org/0009-0005-0114-8220"
+  - family-names: Tritham
+    given-names: Chatchai
+    orcid: "https://orcid.org/0000-0001-7899-228X"
+  - family-names: Tritham
+    given-names: Chattabhorn
+    orcid: "https://orcid.org/0009-0003-2408-7374"
+  - family-names: Ngammongkolwong
+    given-names: Sudasawan
+    orcid: "https://orcid.org/0009-0004-1863-0980"

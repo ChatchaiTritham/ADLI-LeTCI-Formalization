@@ -1,0 +1,22 @@
+{
+  "seed": 20260913,
+  "iterations": 10000,
+  "departments": 25,
+  "items_per_department": 10,
+  "indicator_distribution": "Beta(5,2)",
+  "perturbation": "Uniform(-0.10,0.10), clip at 0, renormalise",
+  "baseline_org_score_mean": 71.1,
+  "org_score_sd_mean_across_departments": 0.55,
+  "org_score_sd_max_across_departments": 1.065,
+  "category_score_sd_mean": 1.374,
+  "org_score_mean_percentile_2_5": 70.82,
+  "org_score_mean_percentile_97_5": 71.38,
+  "top10_priority_overlap_mean": 0.8263,
+  "maturity_level_unchanged_mean": 0.9366,
+  "gated_baseline_org_score_mean": 58.77,
+  "gated_share_of_items_capped_at_baseline": 0.712,
+  "gated_org_score_sd_mean_across_departments": 0.186,
+  "gated_item_score_unchanged_mean": 0.9792,
+  "gated_top10_priority_overlap_mean": 1.0,
+  "gated_maturity_level_unchanged_mean": 0.9916
+}
