@@ -9,6 +9,7 @@ The artifact covers every computed result in the article:
 |---|---|---|
 | Continuous and gated item scores (Eqs. adli, letci, gate), point-weighted category and organizational scores (Eq. points), band classification (Eq. band), gap and priority, Integration Health Index, weight-invariance condition (Propositions 1-2) | `src/adli_letci.py` | Reference implementation of the equations; running it checks the worked example (continuous score 58.75 in band 4, gap 21.25, priority 16.256; gated score 45 in band 3, invariant to the factor weights) |
 | Sensitivity analysis (Section "Sensitivity Analysis") | `src/sensitivity_analysis.py` | Monte Carlo weight perturbation, 10,000 iterations, fixed seed 20260914, 25 synthetic departments on the 17 EdPEx 2024-2027 items weighted by official points |
+| Specification conformance and mutation analysis (Section "Specification Conformance and Mutation Analysis", Table II) | `src/conformance.py` -> `results/conformance.json` | Data-free validation: seven properties derived from the scoring rules checked on 20,000 random cases each (seed 20260914) for the reference implementation and seven mutants; reference passes all, 7/7 mutants killed |
 | Sensitivity results | `results/sensitivity_indicators.csv`, `results/sensitivity_iterations.csv`, `results/sensitivity_summary.json` | Synthetic indicator table, per-iteration statistics and the summary figures reported in the article |
 
 All data are synthetic. No organizational or personal records are included.
@@ -24,7 +25,7 @@ python verify.py
 
 `verify.py` runs the worked-example checks, re-runs the simulation in a temporary directory, and
 compares the SHA-256 digest of every output with `results/SHA256SUMS`. It prints
-`All 3 result files reproduced byte-for-byte.` and exits with status 0 when the results match.
+`All 4 result files reproduced byte-for-byte.` and exits with status 0 when the results match.
 
 To regenerate the results in place:
 
@@ -46,7 +47,7 @@ generators used here; if a future NumPy release changes a stream, `verify.py` wi
 | Items capped by the weakest dimension at baseline | – | 77.4 % |
 | Items meeting the weight-invariance condition (sampled weights / whole simplex) | – | 81.9 % / 26.1 % |
 
-Version 1.1.0 replaces the designer-chosen defaults of 1.0.0 (unequal factor weights, equal category weights, 20-point maturity levels) with equal factor weights, the official EdPEx point values and the six official scoring bands, and adds the weight-invariance check.
+Version 1.1.0 replaces the designer-chosen defaults of 1.0.0 (unequal factor weights, equal category weights, 20-point maturity levels) with equal factor weights, the official EdPEx point values and the six official scoring bands, and adds the weight-invariance check. Version 1.2.0 adds the specification-conformance and mutation analysis.
 
 ## Licence
 
