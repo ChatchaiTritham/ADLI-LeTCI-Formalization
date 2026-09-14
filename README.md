@@ -7,8 +7,8 @@ The artifact covers every computed result in the article:
 
 | Article element | File | What it does |
 |---|---|---|
-| Item, category and organizational scores; maturity classification; gap and priority; Integration Health Index; weakest-dimension gated score (Eq. gate, Proposition 5) | `src/adli_letci.py` | Reference implementation of the equations; running it checks the worked example (continuous score 59.0, *Aligned*, gap 21, priority 16.065, gated score 45) |
-| Sensitivity analysis (Section "Sensitivity Analysis") | `src/sensitivity_analysis.py` | Monte Carlo weight perturbation, 10,000 iterations, fixed seed 20260913 |
+| Continuous and gated item scores (Eqs. adli, letci, gate), point-weighted category and organizational scores (Eq. points), band classification (Eq. band), gap and priority, Integration Health Index, weight-invariance condition (Propositions 1-2) | `src/adli_letci.py` | Reference implementation of the equations; running it checks the worked example (continuous score 58.75 in band 4, gap 21.25, priority 16.256; gated score 45 in band 3, invariant to the factor weights) |
+| Sensitivity analysis (Section "Sensitivity Analysis") | `src/sensitivity_analysis.py` | Monte Carlo weight perturbation, 10,000 iterations, fixed seed 20260914, 25 synthetic departments on the 17 EdPEx 2024-2027 items weighted by official points |
 | Sensitivity results | `results/sensitivity_indicators.csv`, `results/sensitivity_iterations.csv`, `results/sensitivity_summary.json` | Synthetic indicator table, per-iteration statistics and the summary figures reported in the article |
 
 All data are synthetic. No organizational or personal records are included.
@@ -39,11 +39,14 @@ generators used here; if a future NumPy release changes a stream, `verify.py` wi
 
 | Quantity | Continuous score | Gated score |
 |---|---|---|
-| Mean organizational score at baseline | 71.10 | 58.77 |
-| Mean SD of organizational score under ±0.10 weight perturbation | 0.550 | 0.186 |
-| Top-10 priority items retained (mean) | 82.6 % | 100 % |
-| Items keeping their maturity level (mean) | 93.7 % | 99.2 % |
-| Items capped by the weakest dimension at baseline | – | 71.2 % |
+| Mean organizational score at baseline | 71.68 | 57.91 |
+| Mean SD of organizational score under ±0.10 weight perturbation | 0.418 | 0.133 |
+| Top-10 priority items retained (mean) | 84.1 % | 100.0 % |
+| Items keeping their scoring band (mean) | 92.5 % | 100.0 % |
+| Items capped by the weakest dimension at baseline | – | 77.4 % |
+| Items meeting the weight-invariance condition (sampled weights / whole simplex) | – | 81.9 % / 26.1 % |
+
+Version 1.1.0 replaces the designer-chosen defaults of 1.0.0 (unequal factor weights, equal category weights, 20-point maturity levels) with equal factor weights, the official EdPEx point values and the six official scoring bands, and adds the weight-invariance check.
 
 ## Licence
 
