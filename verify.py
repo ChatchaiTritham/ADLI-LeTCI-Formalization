@@ -37,6 +37,8 @@ def main():
                        stdout=subprocess.DEVNULL)
         subprocess.run([sys.executable, str(work / "src" / "conformance.py")], check=True,
                        stdout=subprocess.DEVNULL, cwd=work / "src")
+        subprocess.run([sys.executable, str(work / "src" / "operators.py")], check=True,
+                       stdout=subprocess.DEVNULL, cwd=work / "src")
         failures = [n for n, d in expected.items() if sha(work / "results" / n) != d]
 
     if failures:
