@@ -11,6 +11,7 @@ The artifact covers every computed result in the article:
 | Sensitivity analysis (Section "Sensitivity Analysis") | `src/sensitivity_analysis.py` | Monte Carlo weight perturbation, 10,000 iterations, fixed seed 20260914, 25 synthetic departments on the 17 EdPEx 2024-2027 items weighted by official points |
 | Specification conformance and mutation analysis (Section "Specification Conformance and Mutation Analysis", Table II) | `src/conformance.py` -> `results/conformance.json` | Data-free validation: seven properties derived from the scoring rules checked on 20,000 random cases each (seed 20260914) for the reference implementation and seven mutants; reference passes all, 7/7 mutants killed |
 | Theorem 1 (band of the gated score = band of the weakest factor) and comparison of five aggregation operators (Section "Comparison with Alternative Aggregation Operators", Table III) | `src/operators.py` -> `results/operators.json` | Exhaustive and random check of Theorem 1 (7,006,835 cases, 0 violations); 200 synthetic cohorts x 425 items, five operators, five desiderata, Wilcoxon signed-rank tests with Holm correction, rank-biserial effect sizes and bootstrap CIs (needs SciPy) |
+| Figures 2-4 of the article | `src/make_figures.py` -> `figures/fig2_band_map`, `figures/fig3_sensitivity`, `figures/fig4_operators` | Band map of the gated score (from the equations), weight-perturbation distributions (from `results/sensitivity_iterations.csv`) and operator comparison (from `results/operators.json`, which now also stores per-replication values); requires matplotlib |
 | Sensitivity results | `results/sensitivity_indicators.csv`, `results/sensitivity_iterations.csv`, `results/sensitivity_summary.json` | Synthetic indicator table, per-iteration statistics and the summary figures reported in the article |
 
 All data are synthetic. No organizational or personal records are included.
@@ -48,7 +49,7 @@ generators used here; if a future NumPy release changes a stream, `verify.py` wi
 | Items capped by the weakest dimension at baseline | – | 77.4 % |
 | Items meeting the weight-invariance condition (sampled weights / whole simplex) | – | 81.9 % / 26.1 % |
 
-Version 1.1.0 replaces the designer-chosen defaults of 1.0.0 (unequal factor weights, equal category weights, 20-point maturity levels) with equal factor weights, the official EdPEx point values and the six official scoring bands, and adds the weight-invariance check. Version 1.2.0 adds the specification-conformance and mutation analysis. Version 1.3.0 adds Theorem 1 and the operator comparison.
+Version 1.1.0 replaces the designer-chosen defaults of 1.0.0 (unequal factor weights, equal category weights, 20-point maturity levels) with equal factor weights, the official EdPEx point values and the six official scoring bands, and adds the weight-invariance check. Version 1.2.0 adds the specification-conformance and mutation analysis. Version 1.3.0 adds Theorem 1 and the operator comparison. Version 1.4.0 adds the figure generator and per-replication operator results.
 
 ## Licence
 

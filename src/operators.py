@@ -191,7 +191,8 @@ def main():
 
     out = {"seed": SEED, "replications": REPLICATIONS, "items_per_replication": ITEMS,
            "perturbations_per_item_set": PERTURBATIONS, "theorem1": theorem,
-           "operators": summary, "planned_tests": tests}
+           "operators": summary, "planned_tests": tests,
+           "per_replication": {n: {k: [round(float(x), 5) for x in v] for k, v in per[n].items()} for n in names}}
     (OUT / "operators.json").write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
     print("Theorem 1:", theorem)
     for n in names:
