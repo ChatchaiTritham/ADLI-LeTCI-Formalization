@@ -1,0 +1,227 @@
+{
+  "source": {
+    "title": "Nightingale College of Nursing Scorebook, 2009 Baldrige Examiner Preparation Course",
+    "publisher": "Baldrige National Quality Program, National Institute of Standards and Technology",
+    "url": "https://www.nist.gov/system/files/documents/2017/05/09/2009_Nightingale_Scorebook.pdf",
+    "transcribed": "Score Summary Worksheet--All Sectors (pp. 62)"
+  },
+  "guidance_quoted": "The overall score is not intended to be a numerical average of the elements above; the Examiners select the range and score that are most descriptive of the organization's achievement level for the Item.",
+  "items": [
+    {
+      "item": "1.1",
+      "points": 70,
+      "percent": 55,
+      "score_recorded": 39,
+      "score_computed": 39,
+      "band_recorded": "50-65",
+      "band_computed": "50-65",
+      "agrees": true
+    },
+    {
+      "item": "1.2",
+      "points": 50,
+      "percent": 40,
+      "score_recorded": 20,
+      "score_computed": 20,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "2.1",
+      "points": 40,
+      "percent": 45,
+      "score_recorded": 18,
+      "score_computed": 18,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "2.2",
+      "points": 45,
+      "percent": 45,
+      "score_recorded": 20,
+      "score_computed": 20,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "3.1",
+      "points": 40,
+      "percent": 45,
+      "score_recorded": 18,
+      "score_computed": 18,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "3.2",
+      "points": 45,
+      "percent": 45,
+      "score_recorded": 20,
+      "score_computed": 20,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "4.1",
+      "points": 45,
+      "percent": 45,
+      "score_recorded": 20,
+      "score_computed": 20,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "4.2",
+      "points": 45,
+      "percent": 45,
+      "score_recorded": 20,
+      "score_computed": 20,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "5.1",
+      "points": 45,
+      "percent": 50,
+      "score_recorded": 23,
+      "score_computed": 23,
+      "band_recorded": "50-65",
+      "band_computed": "50-65",
+      "agrees": true
+    },
+    {
+      "item": "5.2",
+      "points": 40,
+      "percent": 35,
+      "score_recorded": 14,
+      "score_computed": 14,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "6.1",
+      "points": 35,
+      "percent": 45,
+      "score_recorded": 16,
+      "score_computed": 16,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "6.2",
+      "points": 50,
+      "percent": 45,
+      "score_recorded": 23,
+      "score_computed": 23,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "7.1",
+      "points": 100,
+      "percent": 60,
+      "score_recorded": 60,
+      "score_computed": 60,
+      "band_recorded": "50-65",
+      "band_computed": "50-65",
+      "agrees": true
+    },
+    {
+      "item": "7.2",
+      "points": 70,
+      "percent": 50,
+      "score_recorded": 35,
+      "score_computed": 35,
+      "band_recorded": "50-65",
+      "band_computed": "50-65",
+      "agrees": true
+    },
+    {
+      "item": "7.3",
+      "points": 70,
+      "percent": 50,
+      "score_recorded": 35,
+      "score_computed": 35,
+      "band_recorded": "50-65",
+      "band_computed": "50-65",
+      "agrees": true
+    },
+    {
+      "item": "7.4",
+      "points": 70,
+      "percent": 45,
+      "score_recorded": 32,
+      "score_computed": 32,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "7.5",
+      "points": 70,
+      "percent": 45,
+      "score_recorded": 32,
+      "score_computed": 32,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    },
+    {
+      "item": "7.6",
+      "points": 70,
+      "percent": 45,
+      "score_recorded": 32,
+      "score_computed": 32,
+      "band_recorded": "30-45",
+      "band_computed": "30-45",
+      "agrees": true
+    }
+  ],
+  "items_agreeing": 18,
+  "items_total": 18,
+  "category_totals_recorded": {
+    "1": 59,
+    "2": 38,
+    "3": 38,
+    "4": 40,
+    "5": 37,
+    "6": 39
+  },
+  "category_totals_computed": {
+    "1": 59,
+    "2": 38,
+    "3": 38,
+    "4": 40,
+    "5": 37,
+    "6": 39
+  },
+  "category_totals_agree": true,
+  "process_total": {
+    "recorded": 251,
+    "computed": 251,
+    "agrees": true
+  },
+  "results_total": {
+    "recorded": 226,
+    "computed": 226,
+    "agrees": true
+  },
+  "grand_total": {
+    "recorded": 477,
+    "computed": 477,
+    "agrees": true
+  },
+  "mismatched_items": [],
+  "rounding": "halves rounded up, as the published worksheet does (70 x 55% = 38.5 recorded as 39)"
+}
