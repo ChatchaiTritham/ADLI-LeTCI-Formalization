@@ -1,0 +1,248 @@
+{
+  "T0_lemma_bruteforce": {
+    "n2_k2": {
+      "stable_symmetric_rules": 2,
+      "only_order_statistics": true
+    },
+    "n2_k3": {
+      "stable_symmetric_rules": 2,
+      "only_order_statistics": true
+    },
+    "n2_k4": {
+      "stable_symmetric_rules": 2,
+      "only_order_statistics": true
+    },
+    "n3_k3": {
+      "stable_symmetric_rules": 3,
+      "only_order_statistics": true
+    },
+    "n3_k2": {
+      "stable_symmetric_rules": 4,
+      "only_order_statistics": false
+    },
+    "n4_k2": {
+      "stable_symmetric_rules": 8,
+      "only_order_statistics": false
+    }
+  },
+  "T1_robustness": {
+    "n2_k2": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [],
+      "matches_medians": null
+    },
+    "n2_k3": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [],
+      "matches_medians": null
+    },
+    "n2_k4": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [],
+      "matches_medians": null
+    },
+    "n2_k5": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [],
+      "matches_medians": null
+    },
+    "n2_k6": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [],
+      "matches_medians": null
+    },
+    "n2_k7": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [],
+      "matches_medians": null
+    },
+    "n3_k2": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2
+      ],
+      "matches_medians": true
+    },
+    "n3_k3": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2
+      ],
+      "matches_medians": true
+    },
+    "n3_k4": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2
+      ],
+      "matches_medians": true
+    },
+    "n3_k5": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2
+      ],
+      "matches_medians": true
+    },
+    "n3_k6": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2
+      ],
+      "matches_medians": true
+    },
+    "n3_k7": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2
+      ],
+      "matches_medians": true
+    },
+    "n4_k2": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2,
+        3
+      ],
+      "matches_medians": true
+    },
+    "n4_k3": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2,
+        3
+      ],
+      "matches_medians": true
+    },
+    "n4_k4": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2,
+        3
+      ],
+      "matches_medians": true
+    },
+    "n4_k5": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2,
+        3
+      ],
+      "matches_medians": true
+    },
+    "n4_k6": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2,
+        3
+      ],
+      "matches_medians": true
+    },
+    "n4_k7": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        2,
+        3
+      ],
+      "matches_medians": true
+    },
+    "n5_k2": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3
+      ],
+      "matches_medians": true
+    },
+    "n5_k3": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3
+      ],
+      "matches_medians": true
+    },
+    "n5_k4": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3
+      ],
+      "matches_medians": true
+    },
+    "n5_k5": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3
+      ],
+      "matches_medians": true
+    },
+    "n5_k6": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3
+      ],
+      "matches_medians": true
+    },
+    "n5_k7": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3
+      ],
+      "matches_medians": true
+    },
+    "n6_k2": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3,
+        4
+      ],
+      "matches_medians": true
+    },
+    "n6_k3": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3,
+        4
+      ],
+      "matches_medians": true
+    },
+    "n6_k4": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3,
+        4
+      ],
+      "matches_medians": true
+    },
+    "n6_k5": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3,
+        4
+      ],
+      "matches_medians": true
+    },
+    "n6_k6": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3,
+        4
+      ],
+      "matches_medians": true
+    },
+    "n6_k7": {
+      "robustness_iff_holds": true,
+      "most_robust_rules": [
+        3,
+        4
+      ],
+      "matches_medians": true
+    }
+  },
+  "T2_sorting": {
+    "order_statistic_is_(n-r+1)_of_n_sorting": true
+  },
+  "T3_lemma": {
+    "floor_mean_violates_merge": true,
+    "order_statistics_commute_with_all_nondecreasing_maps": true
+  },
+  "all_T1_hold": true
+}

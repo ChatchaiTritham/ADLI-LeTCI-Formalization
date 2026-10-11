@@ -1,0 +1,349 @@
+{
+  "novel_connect_2008": {
+    "recomputed": {
+      "process": 296,
+      "results": 258,
+      "grand": 554
+    },
+    "published": {
+      "process": 296,
+      "results": 258,
+      "grand": 554
+    }
+  },
+  "nugrain_2010": {
+    "recomputed": {
+      "process": 338,
+      "results": 257,
+      "grand": 595
+    },
+    "published": {
+      "process": 338,
+      "results": 257,
+      "grand": 595
+    }
+  },
+  "band_rules_vs_consensus": {
+    "items": 18,
+    "exact_agreement": {
+      "R1 (gate)": 7,
+      "R2 (lower median)": 14,
+      "R3 (upper median)": 16,
+      "R4 (maximum)": 6,
+      "rounded mean band": 16
+    },
+    "consensus_between_medians": 18,
+    "consensus_above_weakest_factor_band": 11,
+    "items_with_a_lone_weakest_factor": 7,
+    "of_which_consensus_above_it": 7
+  },
+  "items": [
+    {
+      "item": "1.1",
+      "page": 14,
+      "factor_bands": [
+        4,
+        3,
+        3,
+        3
+      ],
+      "consensus_pct": 60,
+      "consensus_band": 3,
+      "R1 (gate)": 3,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "1.2",
+      "page": 17,
+      "factor_bands": [
+        4,
+        3,
+        3,
+        3
+      ],
+      "consensus_pct": 60,
+      "consensus_band": 3,
+      "R1 (gate)": 3,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "2.1",
+      "page": 20,
+      "factor_bands": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "consensus_pct": 50,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 2,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 3,
+      "rounded mean band": 3
+    },
+    {
+      "item": "2.2",
+      "page": 23,
+      "factor_bands": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "consensus_pct": 45,
+      "consensus_band": 2,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 2,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 3,
+      "rounded mean band": 3
+    },
+    {
+      "item": "3.1",
+      "page": 26,
+      "factor_bands": [
+        2,
+        3,
+        2,
+        4
+      ],
+      "consensus_pct": 50,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 2,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "3.2",
+      "page": 29,
+      "factor_bands": [
+        3,
+        4,
+        2,
+        3
+      ],
+      "consensus_pct": 60,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "4.1",
+      "page": 32,
+      "factor_bands": [
+        3,
+        4,
+        3,
+        3
+      ],
+      "consensus_pct": 60,
+      "consensus_band": 3,
+      "R1 (gate)": 3,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "4.2",
+      "page": 35,
+      "factor_bands": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "consensus_pct": 45,
+      "consensus_band": 2,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 2,
+      "R3 (upper median)": 2,
+      "R4 (maximum)": 3,
+      "rounded mean band": 2
+    },
+    {
+      "item": "5.1",
+      "page": 39,
+      "factor_bands": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "consensus_pct": 50,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 2,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 3,
+      "rounded mean band": 3
+    },
+    {
+      "item": "5.2",
+      "page": 42,
+      "factor_bands": [
+        3,
+        3,
+        2,
+        3
+      ],
+      "consensus_pct": 50,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 3,
+      "rounded mean band": 3
+    },
+    {
+      "item": "6.1",
+      "page": 45,
+      "factor_bands": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "consensus_pct": 55,
+      "consensus_band": 3,
+      "R1 (gate)": 3,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "6.2",
+      "page": 48,
+      "factor_bands": [
+        4,
+        3,
+        2,
+        3
+      ],
+      "consensus_pct": 55,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "7.1",
+      "page": 51,
+      "factor_bands": [
+        4,
+        4,
+        3,
+        3
+      ],
+      "consensus_pct": 65,
+      "consensus_band": 3,
+      "R1 (gate)": 3,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 4,
+      "R4 (maximum)": 4,
+      "rounded mean band": 4
+    },
+    {
+      "item": "7.2",
+      "page": 54,
+      "factor_bands": [
+        4,
+        4,
+        3,
+        3
+      ],
+      "consensus_pct": 70,
+      "consensus_band": 4,
+      "R1 (gate)": 3,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 4,
+      "R4 (maximum)": 4,
+      "rounded mean band": 4
+    },
+    {
+      "item": "7.3",
+      "page": 57,
+      "factor_bands": [
+        3,
+        4,
+        2,
+        3
+      ],
+      "consensus_pct": 60,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 4,
+      "rounded mean band": 3
+    },
+    {
+      "item": "7.4",
+      "page": 60,
+      "factor_bands": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "consensus_pct": 50,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 3,
+      "rounded mean band": 3
+    },
+    {
+      "item": "7.5",
+      "page": 63,
+      "factor_bands": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "consensus_pct": 50,
+      "consensus_band": 3,
+      "R1 (gate)": 2,
+      "R2 (lower median)": 3,
+      "R3 (upper median)": 3,
+      "R4 (maximum)": 3,
+      "rounded mean band": 3
+    },
+    {
+      "item": "7.6",
+      "page": 66,
+      "factor_bands": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "consensus_pct": 45,
+      "consensus_band": 2,
+      "R1 (gate)": 1,
+      "R2 (lower median)": 2,
+      "R3 (upper median)": 2,
+      "R4 (maximum)": 3,
+      "rounded mean band": 2
+    }
+  ],
+  "arithmetic_reproduced": true
+}
