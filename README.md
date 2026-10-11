@@ -1,7 +1,7 @@
 # ADLI–LeTCI computational logic — reproducibility artifact
 
-Code and data for the article *ADLI–LeTCI Computational Logic: A Mathematical Framework for
-Organizational Excellence Assessment* (manuscript submitted to IEEE Access).
+Code and data for the article *Median Band Rules for Baldrige-Based Excellence Assessment: An
+Order-Statistic Analysis of the Scoring Guidance* (manuscript submitted to IEEE Access).
 
 The artifact covers every computed result in the article:
 
@@ -19,11 +19,11 @@ The artifact covers every computed result in the article:
 | Figures 2-5 of the article | `src/make_figures.py` -> `figures/fig2_band_map`, `figures/fig3_sensitivity`, `figures/fig4_operators`, `figures/fig5_holistic` | Band map of the gated score (from the equations), weight-perturbation distributions (from `results/sensitivity_iterations.csv`) and operator comparison (from `results/operators.json`, which now also stores per-replication values) and single-factor sensitivity of the band rules with a sweep over within-item imbalance (from `results/holistic.json`; the generator parameters are recovered by replaying the seeded random stream of `holistic.py`, checked against the stored lone-outlier share); requires matplotlib |
 | Sensitivity results | `results/sensitivity_indicators.csv`, `results/sensitivity_iterations.csv`, `results/sensitivity_summary.json` | Synthetic indicator table, per-iteration statistics and the summary figures reported in the article |
 
-All data are synthetic. No organizational or personal records are included.
+All data are synthetic, except the factor ratings and consensus percentages transcribed from the published NIST training scorebooks (S10, S11), which describe fictitious applicants. No organizational or personal records are included.
 
 ## Reproduce
 
-Requirements: Python 3.9 or later and NumPy.
+Requirements: Python 3.9 or later, NumPy, SciPy and Matplotlib (see `requirements.txt`).
 
 ```bash
 pip install -r requirements.txt
@@ -32,7 +32,7 @@ python verify.py
 
 `verify.py` runs the worked-example checks, re-runs the simulation in a temporary directory, and
 compares the SHA-256 digest of every output with `results/SHA256SUMS`. It prints
-`All 5 result files reproduced byte-for-byte.` and exits with status 0 when the results match.
+`All 10 result files reproduced byte-for-byte.` and exits with status 0 when the results match.
 
 To regenerate the results in place:
 
@@ -40,7 +40,7 @@ To regenerate the results in place:
 python src/sensitivity_analysis.py
 ```
 
-Tested with Python 3.11.15 and NumPy 2.4.6. NumPy's `default_rng` is stable across versions for the
+Tested with Python 3.11.15, NumPy 2.4.6 and SciPy 1.17.1 on Windows 11. NumPy's `default_rng` is stable across versions for the
 generators used here; if a future NumPy release changes a stream, `verify.py` will report it.
 
 ## Key results (from `results/sensitivity_summary.json`)
@@ -54,7 +54,7 @@ generators used here; if a future NumPy release changes a stream, `verify.py` wi
 | Items capped by the weakest dimension at baseline | – | 77.4 % |
 | Items meeting the weight-invariance condition (sampled weights / whole simplex) | – | 81.9 % / 26.1 % |
 
-Version 1.1.0 replaces the designer-chosen defaults of 1.0.0 (unequal factor weights, equal category weights, 20-point maturity levels) with equal factor weights, the official EdPEx point values and the six official scoring bands, and adds the weight-invariance check. Version 1.2.0 adds the specification-conformance and mutation analysis. Version 1.3.0 adds Theorem 1 and the operator comparison. Version 1.4.0 adds the figure generator and per-replication operator results.
+Version 1.1.0 replaces the designer-chosen defaults of 1.0.0 (unequal factor weights, equal category weights, 20-point maturity levels) with equal factor weights, the official EdPEx point values and the six official scoring bands, and adds the weight-invariance check. Version 1.2.0 adds the specification-conformance and mutation analysis. Version 1.3.0 adds Theorem 1 and the operator comparison. Version 1.4.0 adds the figure generator and per-replication operator results. Versions 1.5.0 and 1.6.0 add the median band rules and the scorebook check; 1.7.0 adds Fig. 5; 1.8.0 adds the review quantities (S8); 1.9.0 adds the n-factor generalization (S9) and the transcribed scorebook factor ratings (S10); 1.9.1 adds the range-null baseline (S11). Version 1.9.2 updates this README and `CITATION.cff` only; no code or result file changed.
 
 ## Licence
 
