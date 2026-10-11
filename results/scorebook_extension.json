@@ -119,7 +119,39 @@
    "items": 9,
    "consensus_above_gate": 8
   },
-  "range_null_P_all_between_medians": 1.5070408950617283e-06
+  "range_null_P_all_between_medians": 1.5070408950617283e-06,
+  "point_vs_point_mcnemar": {
+   "gate_vs_lower_median": {
+    "gate_only": 1,
+    "lower_median_only": 8,
+    "exact_p": 0.0390625
+   },
+   "gate_vs_upper_median": {
+    "gate_only": 6,
+    "upper_median_only": 13,
+    "exact_p": 0.1670684814453125
+   },
+   "gate_vs_rounded_mean": {
+    "gate_only": 6,
+    "rounded_mean_only": 13,
+    "exact_p": 0.1670684814453125
+   },
+   "lower_median_vs_rounded_mean": {
+    "lower_median_only": 5,
+    "rounded_mean_only": 5,
+    "exact_p": 1.0
+   },
+   "upper_median_vs_rounded_mean": {
+    "upper_median_only": 0,
+    "rounded_mean_only": 0,
+    "exact_p": null
+   }
+  },
+  "factor_spread_max_minus_min": {
+   "0": 9,
+   "1": 23,
+   "2": 4
+  }
  },
  "exploratory_2008": {
   "n_items": 18,
@@ -217,7 +249,38 @@
    "items": 7,
    "consensus_above_gate": 7
   },
-  "range_null_P_all_between_medians": 3.2150205761316875e-05
+  "range_null_P_all_between_medians": 3.2150205761316875e-05,
+  "point_vs_point_mcnemar": {
+   "gate_vs_lower_median": {
+    "gate_only": 0,
+    "lower_median_only": 7,
+    "exact_p": 0.015625
+   },
+   "gate_vs_upper_median": {
+    "gate_only": 2,
+    "upper_median_only": 11,
+    "exact_p": 0.0224609375
+   },
+   "gate_vs_rounded_mean": {
+    "gate_only": 2,
+    "rounded_mean_only": 11,
+    "exact_p": 0.0224609375
+   },
+   "lower_median_vs_rounded_mean": {
+    "lower_median_only": 2,
+    "rounded_mean_only": 4,
+    "exact_p": 0.6875
+   },
+   "upper_median_vs_rounded_mean": {
+    "upper_median_only": 0,
+    "rounded_mean_only": 0,
+    "exact_p": null
+   }
+  },
+  "factor_spread_max_minus_min": {
+   "1": 13,
+   "2": 5
+  }
  },
  "pooled_all": {
   "n_items": 54,
@@ -315,7 +378,39 @@
    "items": 16,
    "consensus_above_gate": 15
   },
-  "range_null_P_all_between_medians": 4.8451674866953713e-11
+  "range_null_P_all_between_medians": 4.8451674866953713e-11,
+  "point_vs_point_mcnemar": {
+   "gate_vs_lower_median": {
+    "gate_only": 1,
+    "lower_median_only": 15,
+    "exact_p": 0.000518798828125
+   },
+   "gate_vs_upper_median": {
+    "gate_only": 8,
+    "upper_median_only": 24,
+    "exact_p": 0.0070003666914999485
+   },
+   "gate_vs_rounded_mean": {
+    "gate_only": 8,
+    "rounded_mean_only": 24,
+    "exact_p": 0.0070003666914999485
+   },
+   "lower_median_vs_rounded_mean": {
+    "lower_median_only": 7,
+    "rounded_mean_only": 9,
+    "exact_p": 0.803619384765625
+   },
+   "upper_median_vs_rounded_mean": {
+    "upper_median_only": 0,
+    "rounded_mean_only": 0,
+    "exact_p": null
+   }
+  },
+  "factor_spread_max_minus_min": {
+   "0": 9,
+   "1": 36,
+   "2": 9
+  }
  },
  "per_case": {
   "2007_Share_Food": {
@@ -414,7 +509,39 @@
     "items": 3,
     "consensus_above_gate": 3
    },
-   "range_null_P_all_between_medians": 0.003472222222222222
+   "range_null_P_all_between_medians": 0.003472222222222222,
+   "point_vs_point_mcnemar": {
+    "gate_vs_lower_median": {
+     "gate_only": 0,
+     "lower_median_only": 3,
+     "exact_p": 0.25
+    },
+    "gate_vs_upper_median": {
+     "gate_only": 3,
+     "upper_median_only": 6,
+     "exact_p": 0.5078125
+    },
+    "gate_vs_rounded_mean": {
+     "gate_only": 3,
+     "rounded_mean_only": 6,
+     "exact_p": 0.5078125
+    },
+    "lower_median_vs_rounded_mean": {
+     "lower_median_only": 3,
+     "rounded_mean_only": 3,
+     "exact_p": 1.0
+    },
+    "upper_median_vs_rounded_mean": {
+     "upper_median_only": 0,
+     "rounded_mean_only": 0,
+     "exact_p": null
+    }
+   },
+   "factor_spread_max_minus_min": {
+    "0": 5,
+    "1": 11,
+    "2": 2
+   }
   },
   "2008_Novel_Connect": {
    "n_items": 18,
@@ -512,7 +639,38 @@
     "items": 7,
     "consensus_above_gate": 7
    },
-   "range_null_P_all_between_medians": 3.2150205761316875e-05
+   "range_null_P_all_between_medians": 3.2150205761316875e-05,
+   "point_vs_point_mcnemar": {
+    "gate_vs_lower_median": {
+     "gate_only": 0,
+     "lower_median_only": 7,
+     "exact_p": 0.015625
+    },
+    "gate_vs_upper_median": {
+     "gate_only": 2,
+     "upper_median_only": 11,
+     "exact_p": 0.0224609375
+    },
+    "gate_vs_rounded_mean": {
+     "gate_only": 2,
+     "rounded_mean_only": 11,
+     "exact_p": 0.0224609375
+    },
+    "lower_median_vs_rounded_mean": {
+     "lower_median_only": 2,
+     "rounded_mean_only": 4,
+     "exact_p": 0.6875
+    },
+    "upper_median_vs_rounded_mean": {
+     "upper_median_only": 0,
+     "rounded_mean_only": 0,
+     "exact_p": null
+    }
+   },
+   "factor_spread_max_minus_min": {
+    "1": 13,
+    "2": 5
+   }
   },
   "2009_Nightingale": {
    "n_items": 18,
@@ -610,7 +768,39 @@
     "items": 6,
     "consensus_above_gate": 5
    },
-   "range_null_P_all_between_medians": 0.00043402777777777775
+   "range_null_P_all_between_medians": 0.00043402777777777775,
+   "point_vs_point_mcnemar": {
+    "gate_vs_lower_median": {
+     "gate_only": 1,
+     "lower_median_only": 5,
+     "exact_p": 0.21875
+    },
+    "gate_vs_upper_median": {
+     "gate_only": 3,
+     "upper_median_only": 7,
+     "exact_p": 0.34375
+    },
+    "gate_vs_rounded_mean": {
+     "gate_only": 3,
+     "rounded_mean_only": 7,
+     "exact_p": 0.34375
+    },
+    "lower_median_vs_rounded_mean": {
+     "lower_median_only": 2,
+     "rounded_mean_only": 2,
+     "exact_p": 1.0
+    },
+    "upper_median_vs_rounded_mean": {
+     "upper_median_only": 0,
+     "rounded_mean_only": 0,
+     "exact_p": null
+    }
+   },
+   "factor_spread_max_minus_min": {
+    "0": 4,
+    "1": 12,
+    "2": 2
+   }
   }
  },
  "cluster_bootstrap_pooled": {

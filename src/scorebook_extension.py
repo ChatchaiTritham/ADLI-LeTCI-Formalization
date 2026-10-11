@@ -134,7 +134,22 @@ def evaluate(rows):
         "H2_gate_vs_any_median_mcnemar": {**gate_vs_any, "exact_p": binom_two_sided(gate_vs_any["any_only"], sum(gate_vs_any.values())) if sum(gate_vs_any.values()) else None},
         "H3_lone_weakest_factor": {"items": lone, "consensus_above_gate": lone_over},
         "range_null_P_all_between_medians": float(null_prob),
+        "point_vs_point_mcnemar": point_mcnemar(rows),
+        "factor_spread_max_minus_min": {str(d): sum(1 for r in rows if max(r["fb"]) - min(r["fb"]) == d)
+                                        for d in sorted({max(r["fb"]) - min(r["fb"]) for r in rows})},
     }
+
+
+def point_mcnemar(rows):
+    """Exact McNemar tests between two point predictions (added in v1.10.0 review: the any-median
+    share is an interval, so point rules are also compared with each other point against point)."""
+    out = {}
+    for a, b in [("gate", "lower_median"), ("gate", "upper_median"), ("gate", "rounded_mean"),
+                 ("lower_median", "rounded_mean"), ("upper_median", "rounded_mean")]:
+        x = sum(r["pred"][a] == r["c"] and r["pred"][b] != r["c"] for r in rows)
+        y = sum(r["pred"][b] == r["c"] and r["pred"][a] != r["c"] for r in rows)
+        out[f"{a}_vs_{b}"] = {f"{a}_only": x, f"{b}_only": y, "exact_p": binom_two_sided(x, x + y) if x + y else None}
+    return out
 
 
 def cluster_bootstrap(rows, reps=10000, seed=20261011):
@@ -182,7 +197,7 @@ def main():
         for k, v in e["hit_rates"].items():
             print(f"  {k:14s} {v['k']:3d}  {v['rate']:.3f}  {v['wilson95']}")
         for k in ["H1_discriminating_subset_D", "secondary_lower_median_vs_rounded_mean",
-                  "any_median_vs_rounded_mean_mcnemar", "H2_gate_vs_any_median_mcnemar", "H3_lone_weakest_factor",
+                  "any_median_vs_rounded_mean_mcnemar", "H2_gate_vs_any_median_mcnemar", "H3_lone_weakest_factor", "point_vs_point_mcnemar", "factor_spread_max_minus_min",
                   "range_null_P_all_between_medians"]:
             print(" ", k, e[k])
     print("\nbootstrap", out["cluster_bootstrap_pooled"], out["cluster_bootstrap_confirmatory"])
