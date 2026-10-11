@@ -1,0 +1,228 @@
+{
+  "items": 18,
+  "consensus_between_medians": 18,
+  "items_with_p_below_one": 13,
+  "range_null_probability_all_between": {
+    "exact": "1/31104",
+    "float": 3.2150205761316875e-05
+  },
+  "clopper_pearson_one_sided_95_lower_bound": 0.8467,
+  "per_item": [
+    {
+      "item": "1.1",
+      "sorted_factor_bands": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "1.2",
+      "sorted_factor_bands": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "2.1",
+      "sorted_factor_bands": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1"
+    },
+    {
+      "item": "2.2",
+      "sorted_factor_bands": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "consensus_band": 2,
+      "between_medians": true,
+      "p_between_under_range_null": "1"
+    },
+    {
+      "item": "3.1",
+      "sorted_factor_bands": [
+        2,
+        2,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "2/3"
+    },
+    {
+      "item": "3.2",
+      "sorted_factor_bands": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/3"
+    },
+    {
+      "item": "4.1",
+      "sorted_factor_bands": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "4.2",
+      "sorted_factor_bands": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "consensus_band": 2,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "5.1",
+      "sorted_factor_bands": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1"
+    },
+    {
+      "item": "5.2",
+      "sorted_factor_bands": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "6.1",
+      "sorted_factor_bands": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "6.2",
+      "sorted_factor_bands": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/3"
+    },
+    {
+      "item": "7.1",
+      "sorted_factor_bands": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1"
+    },
+    {
+      "item": "7.2",
+      "sorted_factor_bands": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "consensus_band": 4,
+      "between_medians": true,
+      "p_between_under_range_null": "1"
+    },
+    {
+      "item": "7.3",
+      "sorted_factor_bands": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/3"
+    },
+    {
+      "item": "7.4",
+      "sorted_factor_bands": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "7.5",
+      "sorted_factor_bands": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "consensus_band": 3,
+      "between_medians": true,
+      "p_between_under_range_null": "1/2"
+    },
+    {
+      "item": "7.6",
+      "sorted_factor_bands": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "consensus_band": 2,
+      "between_medians": true,
+      "p_between_under_range_null": "1/3"
+    }
+  ]
+}
