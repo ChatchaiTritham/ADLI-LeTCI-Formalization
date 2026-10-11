@@ -1,0 +1,91 @@
+{
+  "table_v_shares": [
+    {
+      "desideratum": "D1",
+      "gate_vs": "weighted mean",
+      "median_difference": -0.66,
+      "share_favouring_gate": 1.0,
+      "share_tied": 0.0
+    },
+    {
+      "desideratum": "D1",
+      "gate_vs": "pessimistic OWA",
+      "median_difference": -0.459,
+      "share_favouring_gate": 0.995,
+      "share_tied": 0.005
+    },
+    {
+      "desideratum": "D1",
+      "gate_vs": "majority sorting",
+      "median_difference": -0.421,
+      "share_favouring_gate": 0.995,
+      "share_tied": 0.005
+    },
+    {
+      "desideratum": "D2",
+      "gate_vs": "weighted mean",
+      "median_difference": -0.053,
+      "share_favouring_gate": 1.0,
+      "share_tied": 0.0
+    },
+    {
+      "desideratum": "D2",
+      "gate_vs": "majority sorting",
+      "median_difference": -0.009,
+      "share_favouring_gate": 0.985,
+      "share_tied": 0.015
+    },
+    {
+      "desideratum": "D3",
+      "gate_vs": "minimum",
+      "median_difference": 0.0,
+      "share_favouring_gate": 0.0,
+      "share_tied": 1.0
+    },
+    {
+      "desideratum": "D4",
+      "gate_vs": "minimum",
+      "median_difference": -0.001,
+      "share_favouring_gate": 0.4,
+      "share_tied": 0.0
+    },
+    {
+      "desideratum": "D4",
+      "gate_vs": "pessimistic OWA",
+      "median_difference": -0.065,
+      "share_favouring_gate": 0.015,
+      "share_tied": 0.0
+    },
+    {
+      "desideratum": "D5",
+      "gate_vs": "minimum",
+      "median_difference": 0.074,
+      "share_favouring_gate": 0.925,
+      "share_tied": 0.0
+    }
+  ],
+  "ordinal_r1": {
+    "median_share_band_changed": {
+      "weighted mean": 0.392,
+      "gate": 0.326,
+      "lower median": 0.219,
+      "upper median": 0.221,
+      "maximum": 0.348
+    },
+    "lower_median_minus_gate_median": -0.109,
+    "share_of_cohorts_favouring_lower_median": 0.775,
+    "replay_consistent_with_holistic_json": true
+  },
+  "order_statistic_rules_as_sorting": {
+    "R1_is_4_of_4_sorting": true,
+    "R2_is_3_of_4_sorting": true,
+    "R3_is_2_of_4_sorting": true,
+    "R4_is_1_of_4_sorting": true
+  },
+  "lemma_premises": {
+    "floor_mean_symmetric": true,
+    "floor_mean_idempotent": true,
+    "floor_mean_violations_under_merge": 774,
+    "order_statistics_commute_with_merge": true
+  }
+}
