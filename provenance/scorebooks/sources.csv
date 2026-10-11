@@ -1,0 +1,14 @@
+file,url,retrieved_utc,sector,format,usable,reason
+2002_Capstar_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2002_Capstar_Scorebook.pdf,2026-10-11,Health Care,PDF,no,no per-factor grid; item comments + recommended scoring ranges only
+2005_Landmark_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2005_Landmark_Scorebook.pdf,2026-10-11,Business,PDF,no,no per-factor grid
+2006_Arroyo_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2006_Arroyo_Scorebook.pdf,2026-10-11,Health Care,PDF,no,no per-factor grid
+2007_Share_Food_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2007_Share_Food_Scorebook.pdf,2026-10-11,Nonprofit,PDF,YES,Evaluation Factor Score Summary for 18 items + worksheet
+2008_Novel_Connect_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2008_Novel_Connect_Scorebook.pdf,2026-10-11,Business,PDF,YES (exploratory; S10),Evaluation Factor Score Summary for 18 items + worksheet
+2009_Nightingale_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2009_Nightingale_Scorebook.pdf,2026-10-11,Education,PDF,YES,Evaluation Factor Score Summary for 18 items + worksheet
+2010_NuGrain_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2010_NuGrain_Scorebook.pdf,2026-10-11,Business/Nonprofit (gov lab),PDF,no,item % + worksheet only; factor grid dropped
+2011_TriView_Scorebook.pdf,https://www.nist.gov/system/files/documents/2017/05/09/2011_TriView_Scorebook.pdf,2026-10-11,Business,PDF,no,no factor grid (17 items; comments + %)
+2012_Tillingate_Consensus_Scorebook.docx,https://www.nist.gov/system/files/documents/2017/05/09/2012_Tillingate_Living_Consensus_Scorebook.docx,2026-10-11,Health Care,DOCX,no,Score Value/Range + narrative only
+2014_Buckeye_Consensus_Scorebook.docx,https://www.nist.gov/system/files/documents/2017/05/09/2014_Buckeye_City_Schools_Consensus_Scorebook.docx,2026-10-11,Education,DOCX,no (factor); partial examiner-level,Score Value/Range; independent-review scores listed for only a few items
+2016_FitHabits_Consensus_Scorebook.docx,https://www.nist.gov/system/files/documents/baldrige/examiners/resource_center/2016_FitHabits_Consensus_Scorebook.docx,2026-10-11,Business,DOCX,no,Score Value/Range + narrative only
+2017_ArroyoFresco_Consensus_Scorebook.docx,https://www.nist.gov/system/files/documents/2017/06/29/2017_arroyo_fresco_consensus_scorebook.docx,2026-10-11,Health Care,DOCX,no,Score Value/Range + narrative; IR score ranges for a few items
+2018_GreenGateway_Consensus_Scorebook.docx,https://www.nist.gov/system/files/documents/2018/06/05/2018_green_gateway_consensus_scorebook.docx,2026-10-11,Business,DOCX,no,Score Value/Range + narrative only

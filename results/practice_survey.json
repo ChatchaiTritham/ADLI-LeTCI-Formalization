@@ -1,0 +1,105 @@
+{
+ "documents_verified": 17,
+ "documents_not_retrieved": 6,
+ "rule_category_counts": {
+  "average": 1,
+  "average across raters, then consensus": 1,
+  "cap by a designated attribute": 1,
+  "cumulative (classical) + average (fine-tuned)": 1,
+  "cumulative (prerequisite gate)": 1,
+  "holistic (explicitly neither average nor gate)": 1,
+  "holistic (explicitly not average)": 2,
+  "holistic (explicitly not gate)": 1,
+  "holistic (no operational rule)": 2,
+  "unspecified": 1,
+  "unspecified (AD-R presentational)": 1,
+  "unspecified (staged levels)": 1,
+  "weakest-factor gate (min of two factors)": 2,
+  "weighted (fuzzy AHP)": 1
+ },
+ "documents_prescribing_median_or_majority": 0,
+ "documents_prescribing_weakest_factor_gate": [
+  "S10",
+  "S11"
+ ],
+ "not_reverified_rows": [
+  "S13",
+  "S15"
+ ],
+ "third_party_hosted_rows": [
+  "S06",
+  "S10",
+  "S11"
+ ],
+ "article_table": [
+  {
+   "framework": "Baldrige (examiner FAQ, scorebook, Excellence Builder)",
+   "rule": "Holistic; not mean, not gate",
+   "rows": [
+    "S01",
+    "S02",
+    "S03"
+   ]
+  },
+  {
+   "framework": "EdPEx 2024-2027",
+   "rule": "Holistic; not mean, not gate",
+   "rows": [
+    "S13"
+   ]
+  },
+  {
+   "framework": "AUN-QA v4.0 (programme verdict)",
+   "rule": "Holistic; not mean",
+   "rows": [
+    "S12"
+   ]
+  },
+  {
+   "framework": "Baldrige Award 2025 rubrics",
+   "rule": "Not stated",
+   "rows": [
+    "S05"
+   ]
+  },
+  {
+   "framework": "PMQA 4.0",
+   "rule": "Not stated (three levels)",
+   "rows": [
+    "S14",
+    "S15"
+   ]
+  },
+  {
+   "framework": "Singapore Business Excellence",
+   "rule": "Lower of two factor scores (gate)",
+   "rows": [
+    "S10",
+    "S11"
+   ]
+  },
+  {
+   "framework": "EFQM Model 2021 (RADAR)",
+   "rule": "Capped at the Sound attribute",
+   "rows": [
+    "S06"
+   ]
+  },
+  {
+   "framework": "CAF 2020, classical scoring",
+   "rule": "Cumulative PDCA phases",
+   "rows": [
+    "S07",
+    "S09"
+   ]
+  },
+  {
+   "framework": "CAF 2020, fine-tuned scoring",
+   "rule": "Mean of phase scores",
+   "rows": [
+    "S08",
+    "S09"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,656 @@
+{
+ "2007_Share_Food": [
+  {
+   "item": "1.1",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 16
+  },
+  {
+   "item": "1.2",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 40,
+   "page": 19
+  },
+  {
+   "item": "2.1",
+   "factor_bands": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 55,
+   "page": 22
+  },
+  {
+   "item": "2.2",
+   "factor_bands": [
+    2,
+    2,
+    1,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 40,
+   "page": 26
+  },
+  {
+   "item": "3.1",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 40,
+   "page": 29
+  },
+  {
+   "item": "3.2",
+   "factor_bands": [
+    1,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 30,
+   "page": 32
+  },
+  {
+   "item": "4.1",
+   "factor_bands": [
+    2,
+    3,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 35
+  },
+  {
+   "item": "4.2",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 38
+  },
+  {
+   "item": "5.1",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 41
+  },
+  {
+   "item": "5.2",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 35,
+   "page": 44
+  },
+  {
+   "item": "6.1",
+   "factor_bands": [
+    3,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 40,
+   "page": 47
+  },
+  {
+   "item": "6.2",
+   "factor_bands": [
+    2,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 50
+  },
+  {
+   "item": "7.1",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 53
+  },
+  {
+   "item": "7.2",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 43,
+   "page": 56
+  },
+  {
+   "item": "7.3",
+   "factor_bands": [
+    2,
+    3,
+    1,
+    1
+   ],
+   "n_marks": 4,
+   "consensus_pct": 30,
+   "page": 59
+  },
+  {
+   "item": "7.4",
+   "factor_bands": [
+    2,
+    3,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 40,
+   "page": 63
+  },
+  {
+   "item": "7.5",
+   "factor_bands": [
+    3,
+    2,
+    3,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 53,
+   "page": 67
+  },
+  {
+   "item": "7.6",
+   "factor_bands": [
+    3,
+    2,
+    1,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 40,
+   "page": 71
+  }
+ ],
+ "2008_Novel_Connect": [
+  {
+   "item": "1.1",
+   "factor_bands": [
+    4,
+    3,
+    3,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 60,
+   "page": 14
+  },
+  {
+   "item": "1.2",
+   "factor_bands": [
+    4,
+    3,
+    3,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 60,
+   "page": 17
+  },
+  {
+   "item": "2.1",
+   "factor_bands": [
+    2,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 20
+  },
+  {
+   "item": "2.2",
+   "factor_bands": [
+    2,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 23
+  },
+  {
+   "item": "3.1",
+   "factor_bands": [
+    2,
+    3,
+    2,
+    4
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 26
+  },
+  {
+   "item": "3.2",
+   "factor_bands": [
+    3,
+    4,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 60,
+   "page": 29
+  },
+  {
+   "item": "4.1",
+   "factor_bands": [
+    3,
+    4,
+    3,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 60,
+   "page": 32
+  },
+  {
+   "item": "4.2",
+   "factor_bands": [
+    3,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 35
+  },
+  {
+   "item": "5.1",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 39
+  },
+  {
+   "item": "5.2",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 42
+  },
+  {
+   "item": "6.1",
+   "factor_bands": [
+    3,
+    3,
+    3,
+    4
+   ],
+   "n_marks": 4,
+   "consensus_pct": 55,
+   "page": 45
+  },
+  {
+   "item": "6.2",
+   "factor_bands": [
+    4,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 55,
+   "page": 48
+  },
+  {
+   "item": "7.1",
+   "factor_bands": [
+    4,
+    4,
+    3,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 65,
+   "page": 51
+  },
+  {
+   "item": "7.2",
+   "factor_bands": [
+    4,
+    4,
+    3,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 70,
+   "page": 54
+  },
+  {
+   "item": "7.3",
+   "factor_bands": [
+    3,
+    4,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 60,
+   "page": 57
+  },
+  {
+   "item": "7.4",
+   "factor_bands": [
+    3,
+    3,
+    3,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 60
+  },
+  {
+   "item": "7.5",
+   "factor_bands": [
+    3,
+    3,
+    3,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 63
+  },
+  {
+   "item": "7.6",
+   "factor_bands": [
+    3,
+    2,
+    1,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 66
+  }
+ ],
+ "2009_Nightingale": [
+  {
+   "item": "1.1",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 55,
+   "page": 13
+  },
+  {
+   "item": "1.2",
+   "factor_bands": [
+    3,
+    2,
+    1,
+    1
+   ],
+   "n_marks": 4,
+   "consensus_pct": 40,
+   "page": 16
+  },
+  {
+   "item": "2.1",
+   "factor_bands": [
+    3,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 19
+  },
+  {
+   "item": "2.2",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 22
+  },
+  {
+   "item": "3.1",
+   "factor_bands": [
+    2,
+    3,
+    1,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 25
+  },
+  {
+   "item": "3.2",
+   "factor_bands": [
+    3,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 28
+  },
+  {
+   "item": "4.1",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 31
+  },
+  {
+   "item": "4.2",
+   "factor_bands": [
+    3,
+    2,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 34
+  },
+  {
+   "item": "5.1",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 37
+  },
+  {
+   "item": "5.2",
+   "factor_bands": [
+    2,
+    2,
+    1,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 35,
+   "page": 40
+  },
+  {
+   "item": "6.1",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 43
+  },
+  {
+   "item": "6.2",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 46
+  },
+  {
+   "item": "7.1",
+   "factor_bands": [
+    3,
+    4,
+    3,
+    3
+   ],
+   "n_marks": 4,
+   "consensus_pct": 60,
+   "page": 49
+  },
+  {
+   "item": "7.2",
+   "factor_bands": [
+    3,
+    3,
+    3,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 52
+  },
+  {
+   "item": "7.3",
+   "factor_bands": [
+    3,
+    2,
+    3,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 50,
+   "page": 55
+  },
+  {
+   "item": "7.4",
+   "factor_bands": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 58
+  },
+  {
+   "item": "7.5",
+   "factor_bands": [
+    3,
+    3,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 61
+  },
+  {
+   "item": "7.6",
+   "factor_bands": [
+    3,
+    2,
+    2,
+    2
+   ],
+   "n_marks": 4,
+   "consensus_pct": 45,
+   "page": 64
+  }
+ ]
+}

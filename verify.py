@@ -1,7 +1,7 @@
 """Reproduce every number in the paper from this repository and check it byte-for-byte.
 
 1. Runs the worked-example checks in src/adli_letci.py.
-2. Re-runs the Monte Carlo sensitivity analysis and the conformance/mutation analysis into a
+2. Re-runs every analysis script (S4-S13) into a
    temporary directory and compares the
    SHA-256 of each output with the committed files in results/ (listed in results/SHA256SUMS).
 Exit status 0 means the results reproduce exactly.
@@ -48,6 +48,10 @@ def main():
         subprocess.run([sys.executable, str(work / "src" / "scorebook_factors.py")], check=True,
                        stdout=subprocess.DEVNULL, cwd=work / "src")
         subprocess.run([sys.executable, str(work / "src" / "chance_baseline.py")], check=True,
+                       stdout=subprocess.DEVNULL, cwd=work / "src")
+        subprocess.run([sys.executable, str(work / "src" / "scorebook_extension.py")], check=True,
+                       stdout=subprocess.DEVNULL, cwd=work / "src")
+        subprocess.run([sys.executable, str(work / "src" / "practice_survey.py")], check=True,
                        stdout=subprocess.DEVNULL, cwd=work / "src")
         failures = [n for n, d in expected.items() if sha(work / "results" / n) != d]
 

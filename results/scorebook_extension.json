@@ -1,0 +1,636 @@
+{
+ "transcription_agreement": {
+  "items": 54,
+  "factor_cells": 216,
+  "factor_cells_agree": 216,
+  "pct_agree": 54,
+  "items_fully_agree": 54
+ },
+ "arithmetic_check": {
+  "2007_Share_Food": {
+   "recomputed": 425,
+   "published": 425,
+   "match": true
+  },
+  "2008_Novel_Connect": {
+   "recomputed": 554,
+   "published": 554,
+   "match": true
+  },
+  "2009_Nightingale": {
+   "recomputed": 477,
+   "published": 477,
+   "match": true
+  }
+ },
+ "confirmatory_2007_2009": {
+  "n_items": 36,
+  "hit_rates": {
+   "gate": {
+    "k": 23,
+    "rate": 0.639,
+    "wilson95": [
+     0.476,
+     0.775
+    ]
+   },
+   "lower_median": {
+    "k": 30,
+    "rate": 0.833,
+    "wilson95": [
+     0.681,
+     0.921
+    ]
+   },
+   "upper_median": {
+    "k": 30,
+    "rate": 0.833,
+    "wilson95": [
+     0.681,
+     0.921
+    ]
+   },
+   "rounded_mean": {
+    "k": 30,
+    "rate": 0.833,
+    "wilson95": [
+     0.681,
+     0.921
+    ]
+   },
+   "midrange": {
+    "k": 22,
+    "rate": 0.611,
+    "wilson95": [
+     0.449,
+     0.752
+    ]
+   },
+   "mode_low": {
+    "k": 30,
+    "rate": 0.833,
+    "wilson95": [
+     0.681,
+     0.921
+    ]
+   },
+   "max": {
+    "k": 18,
+    "rate": 0.5,
+    "wilson95": [
+     0.345,
+     0.655
+    ]
+   },
+   "any_median": {
+    "k": 35,
+    "rate": 0.972,
+    "wilson95": [
+     0.858,
+     0.995
+    ]
+   }
+  },
+  "H1_discriminating_subset_D": {
+   "size": 0,
+   "consensus_in_median_band": 0,
+   "consensus_eq_rounded_mean": 0,
+   "neither": 0,
+   "exact_binomial_p": null,
+   "underpowered (|D|<10)": true
+  },
+  "secondary_lower_median_vs_rounded_mean": {
+   "discordant": 10,
+   "lower_median_only": 5,
+   "rounded_mean_only": 5,
+   "mcnemar_exact_p": 1.0
+  },
+  "any_median_vs_rounded_mean_mcnemar": {
+   "any_only": 5,
+   "rm_only": 0,
+   "exact_p": 0.0625
+  },
+  "H2_gate_vs_any_median_mcnemar": {
+   "any_only": 13,
+   "gate_only": 1,
+   "exact_p": 0.0018310546875
+  },
+  "H3_lone_weakest_factor": {
+   "items": 9,
+   "consensus_above_gate": 8
+  },
+  "range_null_P_all_between_medians": 1.5070408950617283e-06
+ },
+ "exploratory_2008": {
+  "n_items": 18,
+  "hit_rates": {
+   "gate": {
+    "k": 7,
+    "rate": 0.389,
+    "wilson95": [
+     0.203,
+     0.614
+    ]
+   },
+   "lower_median": {
+    "k": 14,
+    "rate": 0.778,
+    "wilson95": [
+     0.548,
+     0.91
+    ]
+   },
+   "upper_median": {
+    "k": 16,
+    "rate": 0.889,
+    "wilson95": [
+     0.672,
+     0.969
+    ]
+   },
+   "rounded_mean": {
+    "k": 16,
+    "rate": 0.889,
+    "wilson95": [
+     0.672,
+     0.969
+    ]
+   },
+   "midrange": {
+    "k": 11,
+    "rate": 0.611,
+    "wilson95": [
+     0.386,
+     0.797
+    ]
+   },
+   "mode_low": {
+    "k": 14,
+    "rate": 0.778,
+    "wilson95": [
+     0.548,
+     0.91
+    ]
+   },
+   "max": {
+    "k": 6,
+    "rate": 0.333,
+    "wilson95": [
+     0.163,
+     0.563
+    ]
+   },
+   "any_median": {
+    "k": 18,
+    "rate": 1.0,
+    "wilson95": [
+     0.824,
+     1.0
+    ]
+   }
+  },
+  "H1_discriminating_subset_D": {
+   "size": 0,
+   "consensus_in_median_band": 0,
+   "consensus_eq_rounded_mean": 0,
+   "neither": 0,
+   "exact_binomial_p": null,
+   "underpowered (|D|<10)": true
+  },
+  "secondary_lower_median_vs_rounded_mean": {
+   "discordant": 6,
+   "lower_median_only": 2,
+   "rounded_mean_only": 4,
+   "mcnemar_exact_p": 0.6875
+  },
+  "any_median_vs_rounded_mean_mcnemar": {
+   "any_only": 2,
+   "rm_only": 0,
+   "exact_p": 0.5
+  },
+  "H2_gate_vs_any_median_mcnemar": {
+   "any_only": 11,
+   "gate_only": 0,
+   "exact_p": 0.0009765625
+  },
+  "H3_lone_weakest_factor": {
+   "items": 7,
+   "consensus_above_gate": 7
+  },
+  "range_null_P_all_between_medians": 3.2150205761316875e-05
+ },
+ "pooled_all": {
+  "n_items": 54,
+  "hit_rates": {
+   "gate": {
+    "k": 30,
+    "rate": 0.556,
+    "wilson95": [
+     0.424,
+     0.68
+    ]
+   },
+   "lower_median": {
+    "k": 44,
+    "rate": 0.815,
+    "wilson95": [
+     0.692,
+     0.896
+    ]
+   },
+   "upper_median": {
+    "k": 46,
+    "rate": 0.852,
+    "wilson95": [
+     0.734,
+     0.923
+    ]
+   },
+   "rounded_mean": {
+    "k": 46,
+    "rate": 0.852,
+    "wilson95": [
+     0.734,
+     0.923
+    ]
+   },
+   "midrange": {
+    "k": 33,
+    "rate": 0.611,
+    "wilson95": [
+     0.478,
+     0.73
+    ]
+   },
+   "mode_low": {
+    "k": 44,
+    "rate": 0.815,
+    "wilson95": [
+     0.692,
+     0.896
+    ]
+   },
+   "max": {
+    "k": 24,
+    "rate": 0.444,
+    "wilson95": [
+     0.32,
+     0.576
+    ]
+   },
+   "any_median": {
+    "k": 53,
+    "rate": 0.981,
+    "wilson95": [
+     0.902,
+     0.997
+    ]
+   }
+  },
+  "H1_discriminating_subset_D": {
+   "size": 0,
+   "consensus_in_median_band": 0,
+   "consensus_eq_rounded_mean": 0,
+   "neither": 0,
+   "exact_binomial_p": null,
+   "underpowered (|D|<10)": true
+  },
+  "secondary_lower_median_vs_rounded_mean": {
+   "discordant": 16,
+   "lower_median_only": 7,
+   "rounded_mean_only": 9,
+   "mcnemar_exact_p": 0.803619384765625
+  },
+  "any_median_vs_rounded_mean_mcnemar": {
+   "any_only": 7,
+   "rm_only": 0,
+   "exact_p": 0.015625
+  },
+  "H2_gate_vs_any_median_mcnemar": {
+   "any_only": 24,
+   "gate_only": 1,
+   "exact_p": 1.5497207641601562e-06
+  },
+  "H3_lone_weakest_factor": {
+   "items": 16,
+   "consensus_above_gate": 15
+  },
+  "range_null_P_all_between_medians": 4.8451674866953713e-11
+ },
+ "per_case": {
+  "2007_Share_Food": {
+   "n_items": 18,
+   "hit_rates": {
+    "gate": {
+     "k": 12,
+     "rate": 0.667,
+     "wilson95": [
+      0.437,
+      0.837
+     ]
+    },
+    "lower_median": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "upper_median": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "rounded_mean": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "midrange": {
+     "k": 11,
+     "rate": 0.611,
+     "wilson95": [
+      0.386,
+      0.797
+     ]
+    },
+    "mode_low": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "max": {
+     "k": 9,
+     "rate": 0.5,
+     "wilson95": [
+      0.29,
+      0.71
+     ]
+    },
+    "any_median": {
+     "k": 18,
+     "rate": 1.0,
+     "wilson95": [
+      0.824,
+      1.0
+     ]
+    }
+   },
+   "H1_discriminating_subset_D": {
+    "size": 0,
+    "consensus_in_median_band": 0,
+    "consensus_eq_rounded_mean": 0,
+    "neither": 0,
+    "exact_binomial_p": null,
+    "underpowered (|D|<10)": true
+   },
+   "secondary_lower_median_vs_rounded_mean": {
+    "discordant": 6,
+    "lower_median_only": 3,
+    "rounded_mean_only": 3,
+    "mcnemar_exact_p": 1.0
+   },
+   "any_median_vs_rounded_mean_mcnemar": {
+    "any_only": 3,
+    "rm_only": 0,
+    "exact_p": 0.25
+   },
+   "H2_gate_vs_any_median_mcnemar": {
+    "any_only": 6,
+    "gate_only": 0,
+    "exact_p": 0.03125
+   },
+   "H3_lone_weakest_factor": {
+    "items": 3,
+    "consensus_above_gate": 3
+   },
+   "range_null_P_all_between_medians": 0.003472222222222222
+  },
+  "2008_Novel_Connect": {
+   "n_items": 18,
+   "hit_rates": {
+    "gate": {
+     "k": 7,
+     "rate": 0.389,
+     "wilson95": [
+      0.203,
+      0.614
+     ]
+    },
+    "lower_median": {
+     "k": 14,
+     "rate": 0.778,
+     "wilson95": [
+      0.548,
+      0.91
+     ]
+    },
+    "upper_median": {
+     "k": 16,
+     "rate": 0.889,
+     "wilson95": [
+      0.672,
+      0.969
+     ]
+    },
+    "rounded_mean": {
+     "k": 16,
+     "rate": 0.889,
+     "wilson95": [
+      0.672,
+      0.969
+     ]
+    },
+    "midrange": {
+     "k": 11,
+     "rate": 0.611,
+     "wilson95": [
+      0.386,
+      0.797
+     ]
+    },
+    "mode_low": {
+     "k": 14,
+     "rate": 0.778,
+     "wilson95": [
+      0.548,
+      0.91
+     ]
+    },
+    "max": {
+     "k": 6,
+     "rate": 0.333,
+     "wilson95": [
+      0.163,
+      0.563
+     ]
+    },
+    "any_median": {
+     "k": 18,
+     "rate": 1.0,
+     "wilson95": [
+      0.824,
+      1.0
+     ]
+    }
+   },
+   "H1_discriminating_subset_D": {
+    "size": 0,
+    "consensus_in_median_band": 0,
+    "consensus_eq_rounded_mean": 0,
+    "neither": 0,
+    "exact_binomial_p": null,
+    "underpowered (|D|<10)": true
+   },
+   "secondary_lower_median_vs_rounded_mean": {
+    "discordant": 6,
+    "lower_median_only": 2,
+    "rounded_mean_only": 4,
+    "mcnemar_exact_p": 0.6875
+   },
+   "any_median_vs_rounded_mean_mcnemar": {
+    "any_only": 2,
+    "rm_only": 0,
+    "exact_p": 0.5
+   },
+   "H2_gate_vs_any_median_mcnemar": {
+    "any_only": 11,
+    "gate_only": 0,
+    "exact_p": 0.0009765625
+   },
+   "H3_lone_weakest_factor": {
+    "items": 7,
+    "consensus_above_gate": 7
+   },
+   "range_null_P_all_between_medians": 3.2150205761316875e-05
+  },
+  "2009_Nightingale": {
+   "n_items": 18,
+   "hit_rates": {
+    "gate": {
+     "k": 11,
+     "rate": 0.611,
+     "wilson95": [
+      0.386,
+      0.797
+     ]
+    },
+    "lower_median": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "upper_median": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "rounded_mean": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "midrange": {
+     "k": 11,
+     "rate": 0.611,
+     "wilson95": [
+      0.386,
+      0.797
+     ]
+    },
+    "mode_low": {
+     "k": 15,
+     "rate": 0.833,
+     "wilson95": [
+      0.608,
+      0.942
+     ]
+    },
+    "max": {
+     "k": 9,
+     "rate": 0.5,
+     "wilson95": [
+      0.29,
+      0.71
+     ]
+    },
+    "any_median": {
+     "k": 17,
+     "rate": 0.944,
+     "wilson95": [
+      0.742,
+      0.99
+     ]
+    }
+   },
+   "H1_discriminating_subset_D": {
+    "size": 0,
+    "consensus_in_median_band": 0,
+    "consensus_eq_rounded_mean": 0,
+    "neither": 0,
+    "exact_binomial_p": null,
+    "underpowered (|D|<10)": true
+   },
+   "secondary_lower_median_vs_rounded_mean": {
+    "discordant": 4,
+    "lower_median_only": 2,
+    "rounded_mean_only": 2,
+    "mcnemar_exact_p": 1.0
+   },
+   "any_median_vs_rounded_mean_mcnemar": {
+    "any_only": 2,
+    "rm_only": 0,
+    "exact_p": 0.5
+   },
+   "H2_gate_vs_any_median_mcnemar": {
+    "any_only": 7,
+    "gate_only": 1,
+    "exact_p": 0.0703125
+   },
+   "H3_lone_weakest_factor": {
+    "items": 6,
+    "consensus_above_gate": 5
+   },
+   "range_null_P_all_between_medians": 0.00043402777777777775
+  }
+ },
+ "cluster_bootstrap_pooled": {
+  "clusters": 3,
+  "reps": 10000,
+  "seed": 20261011,
+  "diff_any_median_minus_rounded_mean_95ci": [
+   0.111,
+   0.167
+  ],
+  "note": "few clusters; percentile CI is descriptive only"
+ },
+ "cluster_bootstrap_confirmatory": {
+  "clusters": 2,
+  "reps": 10000,
+  "seed": 20261011,
+  "diff_any_median_minus_rounded_mean_95ci": [
+   0.111,
+   0.167
+  ],
+  "note": "few clusters; percentile CI is descriptive only"
+ }
+}
